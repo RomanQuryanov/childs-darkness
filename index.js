@@ -2,7 +2,13 @@ const Discord = require("discord.js");
 const bot =  [ new Discord.Client(), new Discord.Client()];
 const config = require("./config.json")
 const delay = ms => new Promise(res => setTimeout(res, ms));
-const auth = [config.token, config.token2,config.token3]
+const auth = [process.env.TOKEN1,process.env.TOKEN2,process.env.TOKEN3]
+
+const express = require("express")
+const app = express()
+
+const PORT = process.env.PORT || 80
+
 
 for (const token of auth) {
     const bot = new Discord.Client()
