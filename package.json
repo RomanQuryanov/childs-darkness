@@ -9,7 +9,12 @@
   "author": "Xware",
   "license": "ISC",
   "dependencies": {
-    "discord.js": "^11.6.4",
-    "dotenv": "^16.0.3"
+    "date-and-time": "^2.4.1",
+    "discord-selfbot-v14": "^0.0.1-security",
+    "discord.js-selfbot-v13": "^2.9.0",
+    "dotenv": "^16.0.3",
+    "install": "^0.13.0",
+    "node.js": "^0.0.1-security",
+    "npm": "^9.1.1"
   }
 }
